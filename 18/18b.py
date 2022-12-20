@@ -33,7 +33,7 @@ def findBox(cubes):
 
     #               + 1 because findAirPockets will think that there are bubbles
     #               in the corners of the box. This is like adding a padding of 1
-    return 0, 0, 0, maxX + 1, maxY + 1, maxZ + 1
+    return -1, -1, -1, maxX + 1, maxY + 1, maxZ + 1
 
 
 def findAirPockets(cubes, box, minX, minY, minZ, maxX, maxY, maxZ):

@@ -36,6 +36,7 @@ def mix(linkedList):
                     newNeighbour = newNeighbour.next
 
             else:
+                # also could move right, because its circular linked list
                 for _ in range((-node.value) % divisor + 1):
                     newNeighbour = newNeighbour.prev
 

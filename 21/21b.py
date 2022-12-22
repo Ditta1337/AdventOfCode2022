@@ -51,6 +51,7 @@ def main():
 
     toAdd = pow(2, counter)
 
+    # binary search thingy
     while True:
         diff1 = diff0
         left = int(eval(leftEquation[0].format(humn)))

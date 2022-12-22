@@ -27,6 +27,7 @@ def rekFindEquation(line, data, equation):
 def main():
     equation = [""]
     rekFindEquation(findLine(data, "root:"), data, equation)
+    # I am aware of the eval() security issues
     ret = int(eval(equation[0]))
     print(ret)
 

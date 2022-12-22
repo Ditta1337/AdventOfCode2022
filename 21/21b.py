@@ -37,7 +37,8 @@ def main():
     rekFindEquation(findLine(data, line[3]), data, rightEquation, sideOfEq, 1)
 
     humn = sideOfEq[0]
-
+    
+     # I am aware of the eval() security issues
     left = int(eval(leftEquation[0].format(humn)))
     right = int(eval(rightEquation[0].format(humn)))
     diff0 = abs(left - right)

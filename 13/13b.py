@@ -1,6 +1,6 @@
 import ast
 
-with open("/Users/ditta/Desktop/AGH/AdventOfCode2022/13/input.txt") as f:
+with open("./13/input.txt") as f:
     data = f.readlines()
 
 

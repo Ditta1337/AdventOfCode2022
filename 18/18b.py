@@ -1,6 +1,6 @@
 from collections import deque
 
-with open("/Users/ditta/Desktop/AGH/AdventOfCode2022/18/input.txt") as f:
+with open("./18/input.txt") as f:
     data = f.readlines()
 
 

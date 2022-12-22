@@ -1,6 +1,6 @@
 import re
 
-with open("/Users/ditta/Desktop/AGH/AdventOfCode2022/19/input.txt") as f:
+with open("./19/input.txt") as f:
     data = f.readlines()
 
 

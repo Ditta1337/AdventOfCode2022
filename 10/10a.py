@@ -1,4 +1,4 @@
-with open('/Users/ditta/Desktop/AGH/AdventOfCode2022/10/input.txt') as f:
+with open('./10/input.txt') as f:
     data = f.readlines()
 
 register = 1

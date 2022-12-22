@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-with open('/Users/ditta/Desktop/AGH/AdventOfCode2022/18/input.txt', 'r') as f:
+with open('./18/input.txt', 'r') as f:
     data = [tuple(map(int, line.split(','))) for line in f]
 
 

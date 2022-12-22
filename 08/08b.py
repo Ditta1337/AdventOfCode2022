@@ -1,4 +1,4 @@
-with open('/Users/ditta/Desktop/AGH/AdventOfCode2022/08/input.txt') as f:
+with open('./08/input.txt') as f:
     data = f.readlines()
 
 # uses much space, but I dont give a fuck

@@ -1,4 +1,4 @@
-with open("/Users/ditta/Desktop/AGH/AdventOfCode2022/16/input.txt") as f:
+with open("./16/input.txt") as f:
     data = f.readlines()
 
 time = 30

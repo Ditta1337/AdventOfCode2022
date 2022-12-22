@@ -1,7 +1,7 @@
 import time
 import os
 
-with open("/Users/ditta/Desktop/AGH/AdventOfCode2022/14/input.txt") as f:
+with open("./14/input.txt") as f:
     data = f.readlines()
 
 

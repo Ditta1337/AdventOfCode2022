@@ -1,5 +1,5 @@
 
-with open('/Users/ditta/Desktop/AGH/AdventOfCode2022/05/input.txt') as f:
+with open('./05/input.txt') as f:
     data = f.readlines()
 
 ret = ""

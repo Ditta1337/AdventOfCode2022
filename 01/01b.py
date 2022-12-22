@@ -1,4 +1,4 @@
-with open('/Users/ditta/Desktop/AGH/AdventOfCode2022/01/input.txt') as f:
+with open('./01/input.txt') as f:
     data = f.readlines()
 
 tab = []

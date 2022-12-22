@@ -6,5 +6,5 @@
 
 ### All puzzles with inputs: https://adventofcode.com/2022
 
-#### Things I could have done differently:
+### Things I could have done differently:
 #### - use `global` keywoard instead of mutable lists (i.e. day 19 or day 21)
